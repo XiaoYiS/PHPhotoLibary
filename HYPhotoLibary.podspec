@@ -33,10 +33,10 @@ TODO: Add long description of the pod here.
   s.source_files = 'HYPhotoLibary/Classes/**/*' #代码源文件地址，**/*表示Classes目录及其子目录下所有文件，如果有多个目录下则用逗号分开，如果需要在项目中分组显示，这里也要做相应的设置
   
   # s.resource_bundles = {
-  #   'HYPhotoLibary' => ['HYPhotoLibary/Assets/*.png']
+     'HYPhotoLibary' => ['HYPhotoLibary/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'SDWebImage', '~> 2.3'
 end
