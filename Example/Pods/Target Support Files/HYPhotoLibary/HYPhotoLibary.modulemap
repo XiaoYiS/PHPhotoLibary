@@ -1,0 +1,6 @@
+framework module HYPhotoLibary {
+  umbrella header "HYPhotoLibary-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A8CA71A19CF33DA8A23EB7E59C78FD /* HYPhotoShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E29CAED228EBF68D75F7F9CE83E731 /* HYPhotoShareManager.m */; };
+		0C032EC8A3EC0299646F103B571F9BD4 /* GroupViewTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2BEF4F3744E5F990956C4AAD9AF1F395 /* GroupViewTableViewCell.xib */; };
+		1A07485C6890F07A4697A7BD73645550 /* HYPhotoLibary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE408E29B141E2B97CBA4DB5FE4E02 /* HYPhotoLibary-dummy.m */; };
+		1E5375E7E8291CB886FE3B89603A5013 /* HYGroupView.h in Headers */ = {isa = PBXBuildFile; fileRef = E01DA544537BDFD76B461D6EA9274BBF /* HYGroupView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E1577902CD6EAFEE780232F440B73A8 /* HYPhotoCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = CAECFF5DC5DDA05CD21F9EE8F1B9DA8B /* HYPhotoCollectionViewCell.xib */; };
+		3151117F11B5CDDD778CAEA99388D6AE /* GroupViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B02AC2973AADB493B6455D93AA143F /* GroupViewTableViewCell.m */; };
+		3C78C2CCA5CC6D00F091FAA68FE14A3B /* Pods-HYPhotoLibary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DB6F61ABA973EE51AB5928B5CF7B283 /* Pods-HYPhotoLibary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B874969E8425CE2BE2920B26E7B308 /* HYPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A103032F8542E712432BB9B3021EC088 /* HYPhotoCollectionViewCell.m */; };
+		5B12E81EBC73F372615CCFD3C729D810 /* GroupViewTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 99854B57BED1BF89A0D627FBE393DF52 /* GroupViewTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ED4508304B1CB1E3331B0072F9C978C /* HYGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCB52533E954E5E4D7032D6EFE06124 /* HYGroupView.m */; };
+		754B251501FF085A83FFB0A2E9F9C1FA /* HYPhotoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BF8EBFD5144EBC3B8287DA650CC5710 /* HYPhotoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CDD0119274689005056B721F37CB7CD /* HYPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D2465D145F43BF85A387653D2F6382 /* HYPhotoManager.m */; };
+		8DBB812474D353DAACEBEB649BA58D08 /* HYPhotoBroswer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0C39D9A80FE50F4D2C88FFAC374BFA /* HYPhotoBroswer.m */; };
+		940C44E02DA9237AAFC0DB18025618CF /* HYPhotoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EA2957E2E2CD2FA8B432907E61F11218 /* HYPhotoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B28D2879910464650DC78A6709F3A8B /* HYPhotoBroswer.h in Headers */ = {isa = PBXBuildFile; fileRef = C17A226AC895CFE79400A0CDB5CABF57 /* HYPhotoBroswer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B46E1940A28F676ED65321E96FF23B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9EC2E265FBECFB7E77A928F75E21F482 /* HYPhotoBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFAA07D205348AC0B53E269E3363FF3 /* HYPhotoBrowserView.m */; };
+		AC91A835020A730803287940D8EFD770 /* HYPhotoCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBC8E986DBFEE5A52CFD9B5D74C560 /* HYPhotoCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B12E061AECA9A268ACCE53D5D652E333 /* Pods-HYPhotoLibary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B2BF917150DEEB1233DC9F215FBD11 /* Pods-HYPhotoLibary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B83FD18030B0FEC99D1F16474B197C06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B86741F31143C96465564EEE7E7B5139 /* HYPhotoBrowserView.h in Headers */ = {isa = PBXBuildFile; fileRef = 45B133BFFCC83DCC14F564B75047D129 /* HYPhotoBrowserView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8D002A77AC84E932085923D15CC7C4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		BAA6C8AE6C4FCA18CABD0A8A195EDD2B /* HYPhotoHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 43FDA54C4E8CD605406D84F1FEA0F105 /* HYPhotoHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C03AABA2F9316568132B7B6477713D99 /* HYPhotoShareManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B0D213C8D9D509FA88C442B8DE8D9D6A /* HYPhotoShareManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C624BAE4FCF2C06DAB2C9EB3E4AA4275 /* HYPhotoLibary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4E561B241978CD931BFFFC04B41025 /* HYPhotoLibary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8279380B829AA191CF047251ECAD084 /* Pods-HYPhotoLibary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA3E5D73C95A48E727264A5A0D12032 /* Pods-HYPhotoLibary_Example-dummy.m */; };
+		E9E39151AC48AB84E42E3AA62F883CD0 /* HYPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D51A005543FD0A78D679544D53D54E2 /* HYPhotoViewController.m */; };
+		EE89BA64086608180F787E58853E4B8F /* HYGroupView.xib in Sources */ = {isa = PBXBuildFile; fileRef = F46C29E9EC710A20B50E3EF4B3B3BA2B /* HYGroupView.xib */; };
+		FF7816A1D4903B16F0114D2EC416C2B8 /* Pods-HYPhotoLibary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 945B41BCDB0E639DB720589F682DDB39 /* Pods-HYPhotoLibary_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58C822DE7FB09E6BAFC055A45D52E4DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 265E97B1D6C18D45520AE030C7E8FE8F;
+			remoteInfo = HYPhotoLibary;
+		};
+		E1076AD480E295F12757F220024CC216 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75F85F9409F17B58B807D0348304048A;
+			remoteInfo = "Pods-HYPhotoLibary_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F2A934EA29993C561B042FCEE5F741 /* HYPhotoLibary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HYPhotoLibary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		07B02AC2973AADB493B6455D93AA143F /* GroupViewTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GroupViewTableViewCell.m; path = HYPhotoLibary/Classes/PhotoManager/GroupViewTableViewCell.m; sourceTree = "<group>"; };
+		15133C90B8414F86CE7CAF1CCF055F4B /* Pods-HYPhotoLibary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYPhotoLibary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		15B2BF917150DEEB1233DC9F215FBD11 /* Pods-HYPhotoLibary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYPhotoLibary_Tests-umbrella.h"; sourceTree = "<group>"; };
+		17E29CAED228EBF68D75F7F9CE83E731 /* HYPhotoShareManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYPhotoShareManager.m; path = HYPhotoLibary/Classes/PhotoManager/HYPhotoShareManager.m; sourceTree = "<group>"; };
+		2556E08D60066B3A06616FF29CC3F695 /* Pods-HYPhotoLibary_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYPhotoLibary_Example-resources.sh"; sourceTree = "<group>"; };
+		2BEF4F3744E5F990956C4AAD9AF1F395 /* GroupViewTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = GroupViewTableViewCell.xib; path = HYPhotoLibary/Classes/PhotoManager/GroupViewTableViewCell.xib; sourceTree = "<group>"; };
+		2DB6F61ABA973EE51AB5928B5CF7B283 /* Pods-HYPhotoLibary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYPhotoLibary_Example-umbrella.h"; sourceTree = "<group>"; };
+		360488D616AE9B3FC618869C04D6CE7C /* Pods_HYPhotoLibary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYPhotoLibary_Example.framework; path = "Pods-HYPhotoLibary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3851970AE9F3C59F21EB246A6D062E6B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3D51A005543FD0A78D679544D53D54E2 /* HYPhotoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYPhotoViewController.m; path = HYPhotoLibary/Classes/PhotoManager/HYPhotoViewController.m; sourceTree = "<group>"; };
+		3FA3E5D73C95A48E727264A5A0D12032 /* Pods-HYPhotoLibary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYPhotoLibary_Example-dummy.m"; sourceTree = "<group>"; };
+		43FDA54C4E8CD605406D84F1FEA0F105 /* HYPhotoHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYPhotoHeader.h; path = HYPhotoLibary/Classes/PhotoManager/HYPhotoHeader.h; sourceTree = "<group>"; };
+		45B133BFFCC83DCC14F564B75047D129 /* HYPhotoBrowserView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYPhotoBrowserView.h; sourceTree = "<group>"; };
+		4BF8EBFD5144EBC3B8287DA650CC5710 /* HYPhotoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYPhotoViewController.h; path = HYPhotoLibary/Classes/PhotoManager/HYPhotoViewController.h; sourceTree = "<group>"; };
+		52F587E11E14450DF1733C15883B6818 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A623E887C3E6A097D134B3DEB31E8BA /* Pods-HYPhotoLibary_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYPhotoLibary_Tests-resources.sh"; sourceTree = "<group>"; };
+		69D2465D145F43BF85A387653D2F6382 /* HYPhotoManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYPhotoManager.m; path = HYPhotoLibary/Classes/PhotoManager/HYPhotoManager.m; sourceTree = "<group>"; };
+		6C4E561B241978CD931BFFFC04B41025 /* HYPhotoLibary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYPhotoLibary-umbrella.h"; sourceTree = "<group>"; };
+		76B8638926633BB6775D0458426DD7C3 /* Pods-HYPhotoLibary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYPhotoLibary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7CF002B1E7D34BA0BD316B6914BB9C4E /* Pods-HYPhotoLibary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYPhotoLibary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		807CA8E0F4795008A0D876E8DC5E5C06 /* Pods-HYPhotoLibary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYPhotoLibary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		822D6918A73BEE728BDC54713DAB8755 /* Pods-HYPhotoLibary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYPhotoLibary_Example-frameworks.sh"; sourceTree = "<group>"; };
+		917E8319FEB5F3DE73DFBE251510067E /* Pods-HYPhotoLibary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYPhotoLibary_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		945B41BCDB0E639DB720589F682DDB39 /* Pods-HYPhotoLibary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYPhotoLibary_Tests-dummy.m"; sourceTree = "<group>"; };
+		97CEC2D44D821821FD969F698A424CF0 /* Pods-HYPhotoLibary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYPhotoLibary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		99854B57BED1BF89A0D627FBE393DF52 /* GroupViewTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GroupViewTableViewCell.h; path = HYPhotoLibary/Classes/PhotoManager/GroupViewTableViewCell.h; sourceTree = "<group>"; };
+		9B05010EFCBA0C03C76598156CA1C13D /* Pods-HYPhotoLibary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYPhotoLibary_Tests.modulemap"; sourceTree = "<group>"; };
+		9DEE408E29B141E2B97CBA4DB5FE4E02 /* HYPhotoLibary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYPhotoLibary-dummy.m"; sourceTree = "<group>"; };
+		9E3442CC6EA358F9950B0DCD37C1E529 /* HYPhotoLibary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYPhotoLibary.xcconfig; sourceTree = "<group>"; };
+		A103032F8542E712432BB9B3021EC088 /* HYPhotoCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYPhotoCollectionViewCell.m; path = HYPhotoLibary/Classes/PhotoManager/HYPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		A5F00A98E377046CD40623B332F0F033 /* HYPhotoLibary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYPhotoLibary-prefix.pch"; sourceTree = "<group>"; };
+		A6ED293ED82071FDFD3E256168A34274 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B0D213C8D9D509FA88C442B8DE8D9D6A /* HYPhotoShareManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYPhotoShareManager.h; path = HYPhotoLibary/Classes/PhotoManager/HYPhotoShareManager.h; sourceTree = "<group>"; };
+		B461CB8314B2FFD43BE53B94C87EB126 /* HYPhotoLibary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HYPhotoLibary.modulemap; sourceTree = "<group>"; };
+		B485DEE6651A10D571D4CE3686A20A70 /* Pods-HYPhotoLibary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYPhotoLibary_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BF0C39D9A80FE50F4D2C88FFAC374BFA /* HYPhotoBroswer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYPhotoBroswer.m; sourceTree = "<group>"; };
+		C17A226AC895CFE79400A0CDB5CABF57 /* HYPhotoBroswer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYPhotoBroswer.h; sourceTree = "<group>"; };
+		C914A2797327F0B88F18C5D967150192 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAECFF5DC5DDA05CD21F9EE8F1B9DA8B /* HYPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HYPhotoCollectionViewCell.xib; path = HYPhotoLibary/Classes/PhotoManager/HYPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		CD3301DA9AB28A79C1BEDBD46F8431A7 /* HYPhotoLibary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HYPhotoLibary.framework; path = HYPhotoLibary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCB52533E954E5E4D7032D6EFE06124 /* HYGroupView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYGroupView.m; path = HYPhotoLibary/Classes/PhotoManager/HYGroupView.m; sourceTree = "<group>"; };
+		CFD78F64808618C67526CD134FA3DF3A /* Pods-HYPhotoLibary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYPhotoLibary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DABBC8E986DBFEE5A52CFD9B5D74C560 /* HYPhotoCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYPhotoCollectionViewCell.h; path = HYPhotoLibary/Classes/PhotoManager/HYPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		DD3987CFFC4B64F98EF4B760FAB1351A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFCC560F53CCE394F25ED6441AE4B2B0 /* Pods-HYPhotoLibary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYPhotoLibary_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E01DA544537BDFD76B461D6EA9274BBF /* HYGroupView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYGroupView.h; path = HYPhotoLibary/Classes/PhotoManager/HYGroupView.h; sourceTree = "<group>"; };
+		E7B9EB7FA404CDC38443C0DDAE404263 /* Pods_HYPhotoLibary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYPhotoLibary_Tests.framework; path = "Pods-HYPhotoLibary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2957E2E2CD2FA8B432907E61F11218 /* HYPhotoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYPhotoManager.h; path = HYPhotoLibary/Classes/PhotoManager/HYPhotoManager.h; sourceTree = "<group>"; };
+		F46C29E9EC710A20B50E3EF4B3B3BA2B /* HYGroupView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HYGroupView.xib; path = HYPhotoLibary/Classes/PhotoManager/HYGroupView.xib; sourceTree = "<group>"; };
+		F5754DA2F800A53074116C65153FE1E7 /* Pods-HYPhotoLibary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYPhotoLibary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FCFAA07D205348AC0B53E269E3363FF3 /* HYPhotoBrowserView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYPhotoBrowserView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2845E5596B19D3E784690C4C55A6D5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B46E1940A28F676ED65321E96FF23B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64B2BCA15AB717C7DBD55BDD1D023AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83FD18030B0FEC99D1F16474B197C06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD85457B160F7838E01B73EFF6131DE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D002A77AC84E932085923D15CC7C4C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08D148A0300CA0DD4494B4FBED69C408 /* Pods-HYPhotoLibary_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C914A2797327F0B88F18C5D967150192 /* Info.plist */,
+				9B05010EFCBA0C03C76598156CA1C13D /* Pods-HYPhotoLibary_Tests.modulemap */,
+				CFD78F64808618C67526CD134FA3DF3A /* Pods-HYPhotoLibary_Tests-acknowledgements.markdown */,
+				807CA8E0F4795008A0D876E8DC5E5C06 /* Pods-HYPhotoLibary_Tests-acknowledgements.plist */,
+				945B41BCDB0E639DB720589F682DDB39 /* Pods-HYPhotoLibary_Tests-dummy.m */,
+				DFCC560F53CCE394F25ED6441AE4B2B0 /* Pods-HYPhotoLibary_Tests-frameworks.sh */,
+				5A623E887C3E6A097D134B3DEB31E8BA /* Pods-HYPhotoLibary_Tests-resources.sh */,
+				15B2BF917150DEEB1233DC9F215FBD11 /* Pods-HYPhotoLibary_Tests-umbrella.h */,
+				97CEC2D44D821821FD969F698A424CF0 /* Pods-HYPhotoLibary_Tests.debug.xcconfig */,
+				76B8638926633BB6775D0458426DD7C3 /* Pods-HYPhotoLibary_Tests.release.xcconfig */,
+			);
+			name = "Pods-HYPhotoLibary_Tests";
+			path = "Target Support Files/Pods-HYPhotoLibary_Tests";
+			sourceTree = "<group>";
+		};
+		1A93FDB3739AA1E2CFAA3003C096E6A8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B461CB8314B2FFD43BE53B94C87EB126 /* HYPhotoLibary.modulemap */,
+				9E3442CC6EA358F9950B0DCD37C1E529 /* HYPhotoLibary.xcconfig */,
+				9DEE408E29B141E2B97CBA4DB5FE4E02 /* HYPhotoLibary-dummy.m */,
+				A5F00A98E377046CD40623B332F0F033 /* HYPhotoLibary-prefix.pch */,
+				6C4E561B241978CD931BFFFC04B41025 /* HYPhotoLibary-umbrella.h */,
+				52F587E11E14450DF1733C15883B6818 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HYPhotoLibary";
+			sourceTree = "<group>";
+		};
+		343EB1C52D70128CE220162421659619 /* HYPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				C17A226AC895CFE79400A0CDB5CABF57 /* HYPhotoBroswer.h */,
+				BF0C39D9A80FE50F4D2C88FFAC374BFA /* HYPhotoBroswer.m */,
+				45B133BFFCC83DCC14F564B75047D129 /* HYPhotoBrowserView.h */,
+				FCFAA07D205348AC0B53E269E3363FF3 /* HYPhotoBrowserView.m */,
+			);
+			name = HYPhotoBrowser;
+			path = HYPhotoLibary/Classes/PhotoManager/HYPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		530B5724B7197908B8AF97C5368F7CEF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				02F2A934EA29993C561B042FCEE5F741 /* HYPhotoLibary.podspec */,
+				A6ED293ED82071FDFD3E256168A34274 /* LICENSE */,
+				3851970AE9F3C59F21EB246A6D062E6B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		600C70E4AABFC365EC617496C7ED6F0D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B3919345707CE9AB31846C1A518332D /* HYPhotoLibary */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				600C70E4AABFC365EC617496C7ED6F0D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F08D419586B7DC11A6C1A2841DA0F22B /* Products */,
+				9A4C349B6BB135223172E5409D3EB44D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B3919345707CE9AB31846C1A518332D /* HYPhotoLibary */ = {
+			isa = PBXGroup;
+			children = (
+				99854B57BED1BF89A0D627FBE393DF52 /* GroupViewTableViewCell.h */,
+				07B02AC2973AADB493B6455D93AA143F /* GroupViewTableViewCell.m */,
+				2BEF4F3744E5F990956C4AAD9AF1F395 /* GroupViewTableViewCell.xib */,
+				E01DA544537BDFD76B461D6EA9274BBF /* HYGroupView.h */,
+				CDCB52533E954E5E4D7032D6EFE06124 /* HYGroupView.m */,
+				F46C29E9EC710A20B50E3EF4B3B3BA2B /* HYGroupView.xib */,
+				DABBC8E986DBFEE5A52CFD9B5D74C560 /* HYPhotoCollectionViewCell.h */,
+				A103032F8542E712432BB9B3021EC088 /* HYPhotoCollectionViewCell.m */,
+				CAECFF5DC5DDA05CD21F9EE8F1B9DA8B /* HYPhotoCollectionViewCell.xib */,
+				43FDA54C4E8CD605406D84F1FEA0F105 /* HYPhotoHeader.h */,
+				EA2957E2E2CD2FA8B432907E61F11218 /* HYPhotoManager.h */,
+				69D2465D145F43BF85A387653D2F6382 /* HYPhotoManager.m */,
+				B0D213C8D9D509FA88C442B8DE8D9D6A /* HYPhotoShareManager.h */,
+				17E29CAED228EBF68D75F7F9CE83E731 /* HYPhotoShareManager.m */,
+				4BF8EBFD5144EBC3B8287DA650CC5710 /* HYPhotoViewController.h */,
+				3D51A005543FD0A78D679544D53D54E2 /* HYPhotoViewController.m */,
+				343EB1C52D70128CE220162421659619 /* HYPhotoBrowser */,
+				530B5724B7197908B8AF97C5368F7CEF /* Pod */,
+				1A93FDB3739AA1E2CFAA3003C096E6A8 /* Support Files */,
+			);
+			name = HYPhotoLibary;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9A4C349B6BB135223172E5409D3EB44D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8EF072A890B28BAFEF1335893A06FAE /* Pods-HYPhotoLibary_Example */,
+				08D148A0300CA0DD4494B4FBED69C408 /* Pods-HYPhotoLibary_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8EF072A890B28BAFEF1335893A06FAE /* Pods-HYPhotoLibary_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DD3987CFFC4B64F98EF4B760FAB1351A /* Info.plist */,
+				917E8319FEB5F3DE73DFBE251510067E /* Pods-HYPhotoLibary_Example.modulemap */,
+				15133C90B8414F86CE7CAF1CCF055F4B /* Pods-HYPhotoLibary_Example-acknowledgements.markdown */,
+				F5754DA2F800A53074116C65153FE1E7 /* Pods-HYPhotoLibary_Example-acknowledgements.plist */,
+				3FA3E5D73C95A48E727264A5A0D12032 /* Pods-HYPhotoLibary_Example-dummy.m */,
+				822D6918A73BEE728BDC54713DAB8755 /* Pods-HYPhotoLibary_Example-frameworks.sh */,
+				2556E08D60066B3A06616FF29CC3F695 /* Pods-HYPhotoLibary_Example-resources.sh */,
+				2DB6F61ABA973EE51AB5928B5CF7B283 /* Pods-HYPhotoLibary_Example-umbrella.h */,
+				B485DEE6651A10D571D4CE3686A20A70 /* Pods-HYPhotoLibary_Example.debug.xcconfig */,
+				7CF002B1E7D34BA0BD316B6914BB9C4E /* Pods-HYPhotoLibary_Example.release.xcconfig */,
+			);
+			name = "Pods-HYPhotoLibary_Example";
+			path = "Target Support Files/Pods-HYPhotoLibary_Example";
+			sourceTree = "<group>";
+		};
+		F08D419586B7DC11A6C1A2841DA0F22B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD3301DA9AB28A79C1BEDBD46F8431A7 /* HYPhotoLibary.framework */,
+				360488D616AE9B3FC618869C04D6CE7C /* Pods_HYPhotoLibary_Example.framework */,
+				E7B9EB7FA404CDC38443C0DDAE404263 /* Pods_HYPhotoLibary_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		361B71322C87F29569DE54D70A900CD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B12E81EBC73F372615CCFD3C729D810 /* GroupViewTableViewCell.h in Headers */,
+				1E5375E7E8291CB886FE3B89603A5013 /* HYGroupView.h in Headers */,
+				9B28D2879910464650DC78A6709F3A8B /* HYPhotoBroswer.h in Headers */,
+				B86741F31143C96465564EEE7E7B5139 /* HYPhotoBrowserView.h in Headers */,
+				AC91A835020A730803287940D8EFD770 /* HYPhotoCollectionViewCell.h in Headers */,
+				BAA6C8AE6C4FCA18CABD0A8A195EDD2B /* HYPhotoHeader.h in Headers */,
+				C624BAE4FCF2C06DAB2C9EB3E4AA4275 /* HYPhotoLibary-umbrella.h in Headers */,
+				940C44E02DA9237AAFC0DB18025618CF /* HYPhotoManager.h in Headers */,
+				C03AABA2F9316568132B7B6477713D99 /* HYPhotoShareManager.h in Headers */,
+				754B251501FF085A83FFB0A2E9F9C1FA /* HYPhotoViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8642E56A87B8F0EC7F4DFB8CF2321F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12E061AECA9A268ACCE53D5D652E333 /* Pods-HYPhotoLibary_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF76C6A395BC0B5AD700682CD6439B33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C78C2CCA5CC6D00F091FAA68FE14A3B /* Pods-HYPhotoLibary_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		265E97B1D6C18D45520AE030C7E8FE8F /* HYPhotoLibary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 871DA428B7F3B4250D05DCDFA5BE14B1 /* Build configuration list for PBXNativeTarget "HYPhotoLibary" */;
+			buildPhases = (
+				DE2E3E85483A095331F432AC2CD7BCA7 /* Sources */,
+				BD85457B160F7838E01B73EFF6131DE5 /* Frameworks */,
+				361B71322C87F29569DE54D70A900CD4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYPhotoLibary;
+			productName = HYPhotoLibary;
+			productReference = CD3301DA9AB28A79C1BEDBD46F8431A7 /* HYPhotoLibary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		75F85F9409F17B58B807D0348304048A /* Pods-HYPhotoLibary_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A44152DDB3B57ACCCDCBC853D6CB73F5 /* Build configuration list for PBXNativeTarget "Pods-HYPhotoLibary_Example" */;
+			buildPhases = (
+				9D78336F49856336D182C8C82EB89A5C /* Sources */,
+				A2845E5596B19D3E784690C4C55A6D5E /* Frameworks */,
+				BF76C6A395BC0B5AD700682CD6439B33 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CACE212270D423C30DFF7FEE65C410E8 /* PBXTargetDependency */,
+			);
+			name = "Pods-HYPhotoLibary_Example";
+			productName = "Pods-HYPhotoLibary_Example";
+			productReference = 360488D616AE9B3FC618869C04D6CE7C /* Pods_HYPhotoLibary_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		90CB55356F10A282F7F8214E4E25D35A /* Pods-HYPhotoLibary_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20D9A8EAAB3864EDC75CFD0E0EA76E78 /* Build configuration list for PBXNativeTarget "Pods-HYPhotoLibary_Tests" */;
+			buildPhases = (
+				917325B5953989CBA2859B4FA47084B7 /* Sources */,
+				B64B2BCA15AB717C7DBD55BDD1D023AD /* Frameworks */,
+				5C8642E56A87B8F0EC7F4DFB8CF2321F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9250738182DE810BACF528C0A7CCC361 /* PBXTargetDependency */,
+			);
+			name = "Pods-HYPhotoLibary_Tests";
+			productName = "Pods-HYPhotoLibary_Tests";
+			productReference = E7B9EB7FA404CDC38443C0DDAE404263 /* Pods_HYPhotoLibary_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F08D419586B7DC11A6C1A2841DA0F22B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				265E97B1D6C18D45520AE030C7E8FE8F /* HYPhotoLibary */,
+				75F85F9409F17B58B807D0348304048A /* Pods-HYPhotoLibary_Example */,
+				90CB55356F10A282F7F8214E4E25D35A /* Pods-HYPhotoLibary_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		917325B5953989CBA2859B4FA47084B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7816A1D4903B16F0114D2EC416C2B8 /* Pods-HYPhotoLibary_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D78336F49856336D182C8C82EB89A5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8279380B829AA191CF047251ECAD084 /* Pods-HYPhotoLibary_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2E3E85483A095331F432AC2CD7BCA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3151117F11B5CDDD778CAEA99388D6AE /* GroupViewTableViewCell.m in Sources */,
+				0C032EC8A3EC0299646F103B571F9BD4 /* GroupViewTableViewCell.xib in Sources */,
+				5ED4508304B1CB1E3331B0072F9C978C /* HYGroupView.m in Sources */,
+				EE89BA64086608180F787E58853E4B8F /* HYGroupView.xib in Sources */,
+				8DBB812474D353DAACEBEB649BA58D08 /* HYPhotoBroswer.m in Sources */,
+				9EC2E265FBECFB7E77A928F75E21F482 /* HYPhotoBrowserView.m in Sources */,
+				55B874969E8425CE2BE2920B26E7B308 /* HYPhotoCollectionViewCell.m in Sources */,
+				2E1577902CD6EAFEE780232F440B73A8 /* HYPhotoCollectionViewCell.xib in Sources */,
+				1A07485C6890F07A4697A7BD73645550 /* HYPhotoLibary-dummy.m in Sources */,
+				8CDD0119274689005056B721F37CB7CD /* HYPhotoManager.m in Sources */,
+				00A8CA71A19CF33DA8A23EB7E59C78FD /* HYPhotoShareManager.m in Sources */,
+				E9E39151AC48AB84E42E3AA62F883CD0 /* HYPhotoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9250738182DE810BACF528C0A7CCC361 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HYPhotoLibary_Example";
+			target = 75F85F9409F17B58B807D0348304048A /* Pods-HYPhotoLibary_Example */;
+			targetProxy = E1076AD480E295F12757F220024CC216 /* PBXContainerItemProxy */;
+		};
+		CACE212270D423C30DFF7FEE65C410E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HYPhotoLibary;
+			target = 265E97B1D6C18D45520AE030C7E8FE8F /* HYPhotoLibary */;
+			targetProxy = 58C822DE7FB09E6BAFC055A45D52E4DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F44AB6B9D201C45B586614F2D350C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CF002B1E7D34BA0BD316B6914BB9C4E /* Pods-HYPhotoLibary_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYPhotoLibary_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYPhotoLibary_Example/Pods-HYPhotoLibary_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		522D2E0C9BD61ADEDA30F3284257A414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76B8638926633BB6775D0458426DD7C3 /* Pods-HYPhotoLibary_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYPhotoLibary_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYPhotoLibary_Tests/Pods-HYPhotoLibary_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		54CE5B72953CD9AC1AC06B21E4E353C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B485DEE6651A10D571D4CE3686A20A70 /* Pods-HYPhotoLibary_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYPhotoLibary_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYPhotoLibary_Example/Pods-HYPhotoLibary_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CAAAFD721B7A5262DBBD15A7915C7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E3442CC6EA358F9950B0DCD37C1E529 /* HYPhotoLibary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HYPhotoLibary/HYPhotoLibary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HYPhotoLibary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HYPhotoLibary/HYPhotoLibary.modulemap";
+				PRODUCT_MODULE_NAME = HYPhotoLibary;
+				PRODUCT_NAME = HYPhotoLibary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		809C160330B4CDCE298E4519FF41B179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E3442CC6EA358F9950B0DCD37C1E529 /* HYPhotoLibary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HYPhotoLibary/HYPhotoLibary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HYPhotoLibary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HYPhotoLibary/HYPhotoLibary.modulemap";
+				PRODUCT_MODULE_NAME = HYPhotoLibary;
+				PRODUCT_NAME = HYPhotoLibary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C990D2FE87497926E7A9E381057E9B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97CEC2D44D821821FD969F698A424CF0 /* Pods-HYPhotoLibary_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYPhotoLibary_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYPhotoLibary_Tests/Pods-HYPhotoLibary_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20D9A8EAAB3864EDC75CFD0E0EA76E78 /* Build configuration list for PBXNativeTarget "Pods-HYPhotoLibary_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C990D2FE87497926E7A9E381057E9B09 /* Debug */,
+				522D2E0C9BD61ADEDA30F3284257A414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		871DA428B7F3B4250D05DCDFA5BE14B1 /* Build configuration list for PBXNativeTarget "HYPhotoLibary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				809C160330B4CDCE298E4519FF41B179 /* Debug */,
+				7CAAAFD721B7A5262DBBD15A7915C7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A44152DDB3B57ACCCDCBC853D6CB73F5 /* Build configuration list for PBXNativeTarget "Pods-HYPhotoLibary_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54CE5B72953CD9AC1AC06B21E4E353C0 /* Debug */,
+				1F44AB6B9D201C45B586614F2D350C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

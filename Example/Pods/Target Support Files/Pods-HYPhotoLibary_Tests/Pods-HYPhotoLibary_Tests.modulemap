@@ -1,0 +1,6 @@
+framework module Pods_HYPhotoLibary_Tests {
+  umbrella header "Pods-HYPhotoLibary_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

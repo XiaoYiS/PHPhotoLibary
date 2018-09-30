@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HYPhotoCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KuX-xh-93N">
+                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="灰色对号" translatesAutoresizingMaskIntoConstraints="NO" id="ZfW-cA-4gM">
+                        <rect key="frame" x="61" y="4" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="GrA-oD-CMr"/>
+                            <constraint firstAttribute="width" constant="15" id="lEm-eZ-YmB"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="对号" translatesAutoresizingMaskIntoConstraints="NO" id="O5K-UI-BnA">
+                        <rect key="frame" x="61" y="4" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="PEH-Bd-h8A"/>
+                            <constraint firstAttribute="height" constant="15" id="dUP-OD-Ny0"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kcv-KJ-zkQ">
+                        <rect key="frame" x="55" y="0.0" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="25" id="Ixu-oU-sCw"/>
+                            <constraint firstAttribute="height" constant="25" id="T5G-g3-LEc"/>
+                        </constraints>
+                        <connections>
+                            <action selector="theUpperRightCornerBtnAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="wYt-h0-gTI"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="O5K-UI-BnA" firstAttribute="top" secondItem="ZfW-cA-4gM" secondAttribute="top" id="8z0-g5-S6X"/>
+                <constraint firstItem="KuX-xh-93N" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Agj-2y-ZmX"/>
+                <constraint firstAttribute="trailing" secondItem="ZfW-cA-4gM" secondAttribute="trailing" constant="4" id="NdM-cR-DDx"/>
+                <constraint firstAttribute="trailing" secondItem="kcv-KJ-zkQ" secondAttribute="trailing" id="OsP-Q6-6Hz"/>
+                <constraint firstItem="O5K-UI-BnA" firstAttribute="bottom" secondItem="ZfW-cA-4gM" secondAttribute="bottom" id="T7P-UR-FKl"/>
+                <constraint firstItem="KuX-xh-93N" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Ut9-ls-CbU"/>
+                <constraint firstItem="O5K-UI-BnA" firstAttribute="trailing" secondItem="ZfW-cA-4gM" secondAttribute="trailing" id="Vfc-KH-C6V"/>
+                <constraint firstAttribute="trailing" secondItem="KuX-xh-93N" secondAttribute="trailing" id="WGq-Cj-3eb"/>
+                <constraint firstItem="O5K-UI-BnA" firstAttribute="leading" secondItem="ZfW-cA-4gM" secondAttribute="leading" id="eHQ-g8-byw"/>
+                <constraint firstItem="ZfW-cA-4gM" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="4" id="iAi-ce-sNc"/>
+                <constraint firstItem="kcv-KJ-zkQ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="iPQ-JK-bx4"/>
+                <constraint firstAttribute="bottom" secondItem="KuX-xh-93N" secondAttribute="bottom" id="mYU-Gx-kBM"/>
+            </constraints>
+            <connections>
+                <outlet property="noSelectImgView" destination="ZfW-cA-4gM" id="6VU-5x-6zY"/>
+                <outlet property="photoImageView" destination="KuX-xh-93N" id="OJR-Os-SXF"/>
+                <outlet property="selectImgView" destination="O5K-UI-BnA" id="OY5-dq-f5B"/>
+                <outlet property="theUpperRightCornerBtn" destination="kcv-KJ-zkQ" id="K7T-zt-AiR"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="对号" width="15" height="15"/>
+        <image name="灰色对号" width="15" height="15"/>
+    </resources>
+</document>

@@ -1,0 +1,16 @@
+PODS:
+  - HYPhotoLibary (0.1.0)
+
+DEPENDENCIES:
+  - HYPhotoLibary (from `../`)
+
+EXTERNAL SOURCES:
+  HYPhotoLibary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HYPhotoLibary: 77cf4b56df6b7682e99753b9b699ed010ae48cb3
+
+PODFILE CHECKSUM: 5a61bb3532d7b0633fc62b1cb822f7a15b6edcfc
+
+COCOAPODS: 1.5.3
