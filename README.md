@@ -1,11 +1,5 @@
-<<<<<<< HEAD
+
 # PHPhotoLibary
-PhotoFrameworks
-=======
-<<<<<<< HEAD
-# PHPhotoLibary
-PhotoFrameworks
-=======
 # HYPhotoLibary
 
 [![CI Status](https://img.shields.io/travis/XiaoYiS/HYPhotoLibary.svg?style=flat)](https://travis-ci.org/XiaoYiS/HYPhotoLibary)
@@ -18,6 +12,7 @@ PhotoFrameworks
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+more than iOS 9.0
 
 ## Installation
 
@@ -35,5 +30,4 @@ XiaoYiS, yihaiyang1203@sina.com
 ## License
 
 HYPhotoLibary is available under the MIT license. See the LICENSE file for more info.
->>>>>>> Initial commit
->>>>>>> first init
+
