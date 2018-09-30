@@ -1,15 +1,24 @@
 PODS:
-  - HYPhotoLibary (0.1.0)
+  - HYPhotoLibary (0.1.0):
+    - SDWebImage
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
 
 DEPENDENCIES:
   - HYPhotoLibary (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
 
 EXTERNAL SOURCES:
   HYPhotoLibary:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HYPhotoLibary: 77cf4b56df6b7682e99753b9b699ed010ae48cb3
+  HYPhotoLibary: cb82a0c69af093a68f215444e840785570eaaedb
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
 
 PODFILE CHECKSUM: 5a61bb3532d7b0633fc62b1cb822f7a15b6edcfc
 

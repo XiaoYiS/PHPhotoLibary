@@ -18,5 +18,15 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HYPhotoLibary/Classes/**/*"
+  "source_files": "HYPhotoLibary/Classes/**/*",
+  "resource_bundles": {
+    "HYPhotoLibary": [
+      "HYPhotoLibary/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "SDWebImage": [
+
+    ]
+  }
 }
