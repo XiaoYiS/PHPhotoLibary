@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HYPhotoLibary' 
-  s.version          = '0.1.0'
+  s.version          = '0.5.0'
   s.summary          = 'HYPhotoLibary is PhotoKit'
 
 # This description is used to generate tags and improve search results.
