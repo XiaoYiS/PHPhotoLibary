@@ -1,5 +1,4 @@
 
-# PHPhotoLibary
 # HYPhotoLibary
 
 [![CI Status](https://img.shields.io/travis/XiaoYiS/HYPhotoLibary.svg?style=flat)](https://travis-ci.org/XiaoYiS/HYPhotoLibary)
