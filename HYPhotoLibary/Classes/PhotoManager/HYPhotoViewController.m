@@ -352,7 +352,15 @@ static NSString * const reuseIdentifier = @"HYPhotoCollectionViewCell";
     self.allLable.font =[UIFont systemFontOfSize:15];
     self.allLable.textColor = [UIColor whiteColor];
     [bottomAllGroupView addSubview:self.allLable];
-    self.triangleImgView =[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"photo-album-Triangle"]];
+    
+//    self.triangleImgView =[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"photo-album-Triangle"]];
+    
+    NSString *s = [[NSBundle bundleForClass:[self class]] pathForResource:@"photo-album-Triangle" ofType:@"png"];
+
+    NSString *pathOfImage = [[[NSBundle bundleForClass:[self class]] bundlePath] stringByAppendingString:@"/photo-album-Triangle@2x.png"];
+    
+    self.triangleImgView = [[UIImageView alloc]initWithImage:[UIImage imageWithContentsOfFile:pathOfImage]];
+
     self.triangleImgView.frame = CGRectMake(CGRectGetMaxX(self.allLable.frame)+2, CGRectGetMaxY(self.allLable.frame)-self.triangleImgView.frame.size.height, self.triangleImgView.frame.size.width, self.triangleImgView.frame.size.height);
     [bottomAllGroupView addSubview:self.triangleImgView];
     self.selectPhotoAlbumBtn =[[UIButton alloc]initWithFrame:CGRectMake(0, 0, CGRectGetMaxX(self.triangleImgView.frame), 50)];
