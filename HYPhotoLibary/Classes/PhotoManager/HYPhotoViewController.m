@@ -94,7 +94,7 @@ static NSString * const reuseIdentifier = @"HYPhotoCollectionViewCell";
     [self setUpBottomAllGroupView];
     
     //注册cell
-    [self.collectionView registerNib:[UINib nibWithNibName:@"HYPhotoCollectionViewCell" bundle:nil] forCellWithReuseIdentifier:reuseIdentifier];
+    [self.collectionView registerNib:[UINib nibWithNibName:@"HYPhotoCollectionViewCell" bundle:[NSBundle bundleForClass:[HYPhotoCollectionViewCell class]]] forCellWithReuseIdentifier:reuseIdentifier];
     
     PHAuthorizationStatus status = [PHPhotoLibrary authorizationStatus];
     

@@ -1,5 +1,5 @@
 PODS:
-  - HYPhotoLibary (0.1.0):
+  - HYPhotoLibary (0.5.0):
     - SDWebImage
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
@@ -17,9 +17,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HYPhotoLibary: cb82a0c69af093a68f215444e840785570eaaedb
+  HYPhotoLibary: 3684e9bd846c897c201d7ac9b55944c648fccb83
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
 
-PODFILE CHECKSUM: 5a61bb3532d7b0633fc62b1cb822f7a15b6edcfc
+PODFILE CHECKSUM: 1617c297b500333d1098dce7e0aadf061d9473a5
 
 COCOAPODS: 1.5.3

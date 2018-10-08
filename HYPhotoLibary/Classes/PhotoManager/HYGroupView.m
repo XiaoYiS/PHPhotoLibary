@@ -27,9 +27,13 @@
 
 + (instancetype)nibFromXib{
     
-    HYGroupView *selfView = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass(self) owner:nil options:nil].lastObject;
+//    HYGroupView *selfView = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass(self) owner:nil options:nil].lastObject;
+    
+    HYGroupView *selfView = [[NSBundle bundleForClass:[self class]] loadNibNamed:NSStringFromClass(self) owner:nil options:nil].lastObject;
+    
+    
     selfView.mytableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-    [selfView.mytableView registerNib:[UINib nibWithNibName:@"GroupViewTableViewCell" bundle:nil] forCellReuseIdentifier:@"GroupViewTableViewCell"];
+    [selfView.mytableView registerNib:[UINib nibWithNibName:@"GroupViewTableViewCell" bundle:[NSBundle bundleForClass:[GroupViewTableViewCell class]]] forCellReuseIdentifier:@"GroupViewTableViewCell"];
     return selfView;
 }
 

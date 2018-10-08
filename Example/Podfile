@@ -8,4 +8,8 @@ target 'HYPhotoLibary_Example' do
 
     
   end
+  
+#  pod 'PodTestLibrary', :podspec => ''
+
+  
 end
